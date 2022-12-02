@@ -14,6 +14,6 @@ def check_disk_usage(disk, min_absolute, min_percentage):
 
 
 if not check_disk_usage("/", 2, 10):
-    print("Not enough")
+    print("Not enough!")
 
 print("Ok")
