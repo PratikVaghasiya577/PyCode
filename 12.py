@@ -1,6 +1,5 @@
 import shutil
-
-
+import os
 
 def check_disk_usage(disk, min_absolute, min_percentage):
     du = shutil.disk_usage(disk)
